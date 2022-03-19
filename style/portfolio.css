@@ -75,7 +75,7 @@ p {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 117px 20px;
 }
 
 .content-container h1 {
@@ -100,6 +100,18 @@ p {
 }
 .about-img {
     max-width: 100%;
+}
+.logo {
+    max-height: 40px;
+}
+
+.active {
+    color: var(--branding-color) !important;
+}
+
+.nav-item {
+    padding: 0 15px;
+    line-height: 25px;
 }
 
 @media (max-width: 898px) {
