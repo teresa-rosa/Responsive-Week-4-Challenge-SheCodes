@@ -25,6 +25,9 @@ h1 {
 h2 {
     font-size: 64px;
 }
+h4 {
+    font-size: 48px;
+}
 
 p {
     font-weight: normal;
@@ -114,6 +117,46 @@ p {
     line-height: 25px;
 }
 
+.email-link {
+    text-decoration: none;
+}
+
+footer {
+    margin: 60px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+footer .social-links a {
+    margin: 10px 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+}
+
 @media (max-width: 898px) {
     h1 {
         font-size: 50px;
@@ -121,6 +164,9 @@ p {
     }
     h2 {
         font-size: 45px;
+    }
+    h4 {
+        font-size: 26px;
     }
     .hello-section {
         padding: 80px 20px;
@@ -132,5 +178,14 @@ p {
     .content {
         text-align: center;
         padding: 0;
+    }
+    footer .contact-box {
+        padding: 35px;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .contact-btn {
+        margin-top: 10px;
+        padding: 15px 25px;
     }
 }
