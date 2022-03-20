@@ -7,6 +7,8 @@
 
 body {
     font-family: var(--default-font-family);
+    border: solid;
+    border-bottom-width: 10px;
 }
 
 h1,
@@ -79,7 +81,6 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
-    text-align: center;
 }
 
 .project-description {
@@ -140,7 +141,7 @@ footer p {
 
 footer .contact-box {
     background: var(--secondary-color);
-    padding: 30px 120px;
+    padding: 30px 50px;
     border-radius: 10px;
 }
 
@@ -197,5 +198,10 @@ footer .social-links a:hover {
     footer .contact-btn {
         margin-top: 10px;
         padding: 15px 25px;
+    }
+}
+@media (min-width: 12px) {
+    .hello-section-segment {
+        padding: 0px 250px;
     }
 }
