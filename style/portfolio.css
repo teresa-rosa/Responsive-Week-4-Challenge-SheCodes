@@ -23,7 +23,6 @@ h6 {
 
 h1 {
     font-size: 96px;
-    color: white;
 }
 h2 {
     font-size: 64px;
@@ -55,6 +54,9 @@ p {
     font-weight: bold;
     margin: 0;
     color: #ffffff;
+}
+.hello-section h1 {
+    color: white;
 }
 
 .hello-section h2 {
