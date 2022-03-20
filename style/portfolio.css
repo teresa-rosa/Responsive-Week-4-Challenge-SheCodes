@@ -79,10 +79,11 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    text-align: center;
 }
 
 .project-description {
-    padding: 120px 60px;
+    padding: 0px 60px;
 }
 
 .content-container {
