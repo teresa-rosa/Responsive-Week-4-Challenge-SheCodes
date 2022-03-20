@@ -1,7 +1,7 @@
 :root {
     --branding-color: #6c63ff;
     --secondary-color: #f9f7fe;
-    --heading-font-family: "Playfair Display", serif;
+    --heading-font-family: "Roboto", sans-serif;
     --default-font-family: "Poppins", sans-serif;
 }
 
@@ -21,6 +21,7 @@ h6 {
 
 h1 {
     font-size: 96px;
+    color: white;
 }
 h2 {
     font-size: 64px;
@@ -36,16 +37,22 @@ p {
 }
 
 .hello-section {
-    background-color: var(--secondary-color);
-    text-align: center;
     padding: 160px 20px;
+    background-image: url(/images/background-image-homepage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hello-section-segment {
+    margin: 0px 40px;
 }
 
 .hello-section p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: #272142;
+    color: #ffffff;
 }
 
 .hello-section h2 {
@@ -53,6 +60,7 @@ p {
     font-weight: normal;
     line-height: 2;
     font-size: 26px;
+    color: #fee9e3;
 }
 
 .btn-branding {
@@ -170,6 +178,7 @@ footer .social-links a:hover {
     }
     .hello-section {
         padding: 80px 20px;
+        text-align: center;
     }
     .project-description {
         padding: 0;
